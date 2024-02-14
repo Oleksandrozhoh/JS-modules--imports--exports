@@ -1,4 +1,4 @@
-// Importing module
+// // Importing module
 // import { addToCart, cart } from './shoppingCart.js';
 // console.log('// Importing module');
 
@@ -61,3 +61,10 @@ console.log(stateDeepClone);
 
 // parcel code to maintain the state of application
 if (module.hot) module.hot.accept();
+
+Promise.resolve('TEST').then(x => console.log(x));
+
+// polifiling features fro ES6+
+import 'core-js/stable';
+// polyfilling async functions
+import 'regenerator-runtime/runtime';
